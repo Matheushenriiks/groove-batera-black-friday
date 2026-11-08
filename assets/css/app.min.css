@@ -101,6 +101,10 @@ s {
   line-height: 1.25;
   letter-spacing: -0.01em;
 }
+
+.centralizado {
+  text-align: center;
+}
 .js [data-reveal] {
   opacity: 0;
   transform: translateY(44px);
@@ -176,7 +180,17 @@ s {
 
 .destaque {
   color: #ff5b14;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
   font-size: 4rem;
+  margin-top: 1.5rem;
+  font-family: var(--font-display);
+  font-weight: 700;
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
 }
 .site-header__inner {
   height: 100%;
