@@ -428,11 +428,15 @@ s {
   position: relative;
 }
 .section__head {
-  max-width: 40rem;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
   margin-bottom: clamp(2.2rem, 5vw, 4rem);
 }
 .section__lead {
-  margin-top: 1rem;
+  margin-top: 3rem;
   color: var(--ash);
   max-width: 38rem;
 }
@@ -659,6 +663,12 @@ s {
   transform-origin: left;
   transform: scaleX(0);
   box-shadow: 0 0 10px var(--ember);
+}
+
+.garantia {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
 }
 .rig__stage {
   overflow: hidden;
